@@ -1,0 +1,60 @@
+*{margin:0; padding:0; }
+
+html{background-color: aquamarine;}
+
+body{width: 1024px; height: auto; margin: auto;}
+
+header{width: 1024px; height: 120px; background-color: aquamarine;}
+
+section#espacio{width: 350px; height: 120px; float:left; background-color: aquamarine;}
+section#banner{width: 350px; height: 120px; float:left; background-color: blue;}
+section#fecha{width: 90px; height: 120px; float:left; background-color: rgb(216, 136, 30);}
+
+th{background-color: rgb(119, 87, 64);}
+td{background-color: rgb(60, 112, 48);}
+
+#calendar{
+    width: 90px;
+    height: 120px;
+    background-color: rgb(235, 121, 14);
+    color: aqua;
+    border-radius: 5%;
+    box-shadow: 0 4px 4px 0 rgba(50, 50, 50, 0.4);
+}
+
+#calendar>p{
+    font-family: Verdana, Arial, sans-serif;
+    padding: 10px 0; 
+    margin: 0; 
+    color: rgb(250, 246, 247);
+    text-align: center;
+}
+
+#calendar-day{
+    font-size: 12px
+}
+
+#calendar-month-year{
+    font-size: 12px;
+}
+
+#calendar-date{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+th{background-color: cadetblue;
+    color: cyan; font-family: arial; font-size: 12px;
+}
+
+tr{background-color: darkgray;
+    font-size: 12px; font-family: arial; color: darkkhaki;
+}
+
+
+footer{
+    width: 1024px; height: 30px; padding: 5px;
+    margin: auto; background-color: darkturquoise;
+    font-size: 12px; font-family: arial; color: black;
+}
